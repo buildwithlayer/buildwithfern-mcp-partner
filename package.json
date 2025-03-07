@@ -1,7 +1,10 @@
 {
   "type": "module",
-  "name": "@buildwithlayer/layer-mcp-demo",
-  "version": "0.0.4",
+  "name": "@buildwithlayer/fern-webflow-mcp-demo",
+  "version": "0.0.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A demo MCP server using a Layer account",
   "author": "GavynWithLayer (https://buildwithlayer.com)",
   "main": "dist/index.js",
@@ -12,7 +15,7 @@
     "dev": "npx nodemon"
   },
   "bin": {
-    "layer-mcp-demo": "./dist/index.js"
+    "layer-mcp-demo": "dist/index.js"
   },
   "files": [
     "dist"
